@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mkn"
+    app:startDestination="@id/warning">
+
+    <fragment
+        android:id="@+id/warning"
+        android:name="com.example.mkn.UI.Warning"
+        android:label="frag_warning"
+        tools:layout="@layout/frag_warning" >
+        <action
+            android:id="@+id/action_warning_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.mkn.UI.Home"
+        android:label="frag_home"
+        tools:layout="@layout/frag_home" >
+        <action
+            android:id="@+id/action_home2_to_gameInfo"
+            app:destination="@id/gameInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameInfo"
+        android:name="com.example.mkn.UI.GameInfo"
+        android:label="frag_home"
+        tools:layout="@layout/frag_game_info" />
+</navigation>

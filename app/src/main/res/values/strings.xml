@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MKN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="condition">
+            L\'abus d\'alcool est mauvais\npour la santé et peu dégrader\nla santé. Pouvant entrainer\nune dépendance. Le jeu\ndois rester simplement un\nmoyen d\'amusement.</string>
+    <string name="priseDeDecision">Vous déclarez avoir pris en\ncompte des dangers de l\'alcool</string>
+    <string name="choisie">Choisis</string>
+    <string name="FavoriteGame">ton jeu préféré</string>
+    <string name="ipsumHome">Lorem ipsum dolor sit amet,\nconsetetur sadipscing elitr,\nsed  diam nonumy eirmod tempor.</string>
+    <string name="Game">Game</string>
+</resources>
